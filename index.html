@@ -10,13 +10,25 @@
       margin: 0;
       padding: 0;
     }
-    .astronaut {
+    .container {
       max-height: 100vh;
       max-width: 100vw;
+    }
+    .astronaut {
+      height: 100%;
+      width: 100%;
+    }
+    .credit {
+      bottom: 0;
+      position: absolute;
+      right: 0;
     }
   </style>
 </head>
 <body>
-  <img class="astronaut" src="astronaut.png"/>
+  <div class="container">
+    <img class="astronaut" src="astronaut.png"/>
+    <div class="credit">Artist Credit: Ramazan Kazaliev</div>
+  </div>
 </body>
 </html>
